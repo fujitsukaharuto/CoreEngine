@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Externals">
+      <UniqueIdentifier>{30bc4a79-2349-4b89-a7bc-fa645665fc59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{015e4b0f-ace8-43b1-a504-630628bc9a32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine">
+      <UniqueIdentifier>{5aa51df3-b10e-452e-99b0-531b4998763b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+</Project>
