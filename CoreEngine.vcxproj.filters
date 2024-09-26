@@ -10,8 +10,37 @@
     <Filter Include="CoreEngine">
       <UniqueIdentifier>{5aa51df3-b10e-452e-99b0-531b4998763b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="CoreEngine\Window">
+      <UniqueIdentifier>{5e1959f4-8b6d-49ad-b376-026ee36a1cac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\Logger">
+      <UniqueIdentifier>{cf05d34c-20d6-4dc3-807a-5e66b5bd0c39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreEngine\DirectXLib">
+      <UniqueIdentifier>{bfd5aa61-e4cd-4c5c-a509-59365c1edc01}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="WinApp.cpp">
+      <Filter>CoreEngine\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>CoreEngine\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="DXCommon.cpp" />
+    <ClCompile Include="DXCommand.cpp" />
+    <ClCompile Include="DXDescriptor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DXCommon.h" />
+    <ClInclude Include="CoreEngine\Logger\Logger.h">
+      <Filter>CoreEngine\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreEngine\Window\WinApp.h">
+      <Filter>CoreEngine\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="DXCommand.h" />
+    <ClInclude Include="DXDescriptor.h" />
   </ItemGroup>
 </Project>
